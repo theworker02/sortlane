@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sortlane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sort encode/decode helpers for lane payloads in pipelines.",
+  "bin": {
+    "sortlane": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sortlane.git"
+  },
+  "homepage": "https://theworker02.github.io/sortlane/",
+  "keywords": [
+    "sort",
+    "lane",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
